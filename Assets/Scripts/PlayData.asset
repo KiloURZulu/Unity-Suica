@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478f1a0f9c3f66f49a67c78882711ee6, type: 3}
+  m_Name: PlayData
+  m_EditorClassIdentifier: 
+  CreateArea: []
+  Items: []
+  Items_C: []
+  Items_U: []
+  ItemsR: []
+  Items_L: []
+  Items_M: []
+  SFX:
+  - name: BallSpawn 1
+    code: BS_1
+    codeNumber: 11
+    sound: {fileID: 8300000, guid: db4510800672b624c97a66041a2e8729, type: 3}
+  - name: BallSpawn 2
+    code: BS_2
+    codeNumber: 12
+    sound: {fileID: 8300000, guid: 290c6a0e35691124685890947cdf919c, type: 3}
+  - name: ballCombine 1
+    code: BC_1
+    codeNumber: 21
+    sound: {fileID: 8300000, guid: 857f1b5e37f68d0409d6ba4bd2a11409, type: 3}
+  - name: ballCombine 2
+    code: BC_2
+    codeNumber: 22
+    sound: {fileID: 8300000, guid: f659a38f270724448a66fa2453c0c34c, type: 3}
+  - name: confetti
+    code: C_1
+    codeNumber: 91
+    sound: {fileID: 8300000, guid: a550cb02580f00c40b4ba02aeff3acb4, type: 3}
+  - name: ambient
+    code: BGM_!
+    codeNumber: 81
+    sound: {fileID: 8300000, guid: cd8db1656a96035498fed19947991f01, type: 3}
+  Others: []
+  ballLv:
+  - name: ball1
+    code: b1
+    codeNumber: 1
+    scale: 0.5
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 2
+  - name: ball2
+    code: b2
+    codeNumber: 2
+    scale: 0.6
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 4
+  - name: ball3
+    code: b3
+    codeNumber: 3
+    scale: 0.7
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 6
+  - name: ball4
+    code: b4
+    codeNumber: 4
+    scale: 0.8
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 8
+  - name: ball5
+    code: b5
+    codeNumber: 5
+    scale: 0.9
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 10
+  - name: ball6
+    code: b6
+    codeNumber: 6
+    scale: 1
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 12
+  - name: ball7
+    code: b7
+    codeNumber: 7
+    scale: 1.1
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 14
+  - name: ball8
+    code: b8
+    codeNumber: 8
+    scale: 1.2
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 16
+  - name: ball9
+    code: b9
+    codeNumber: 9
+    scale: 1.3
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 18
+  - name: ball10
+    code: b10
+    codeNumber: 10
+    scale: 1.4
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 20
+  - name: ball11
+    code: b11
+    codeNumber: 11
+    scale: 1.5
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 22
+  - name: ball12
+    code: b12
+    codeNumber: 12
+    scale: 1.6
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 97d8358e84e0aa24fbb10c7b5aad01a1, type: 3}
+    amount: 24
+  ballImg:
+  - code: 
+    codeNumber: 1
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 0a93d2ad705f47543b6d84a4aa8fa823, type: 3}
+  - code: 
+    codeNumber: 2
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 058cd126686da6641b21be56e9551884, type: 3}
+  - code: 
+    codeNumber: 3
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 2c7246603bcb8ac43ac11fcd22d7e6ec, type: 3}
+  - code: 
+    codeNumber: 4
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 566728cd34883eb49950cc349b99accb, type: 3}
+  - code: 
+    codeNumber: 5
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8ecb846c566cc8041ae15631d29f20f3, type: 3}
+  - code: 
+    codeNumber: 6
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 713b083e5f606c741872ca96618f1744, type: 3}
+  - code: 
+    codeNumber: 7
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: db011c66035591c41aa2c020382ad33d, type: 3}
+  - code: 
+    codeNumber: 8
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 8c81c67bf9f76c0418836b93f2224e1d, type: 3}
+  - code: 
+    codeNumber: 9
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 0c72ec0eb8da29b418ea14b75759bc8b, type: 3}
+  - code: 
+    codeNumber: 10
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 570d9b1d642a0e040b1fc6c75c55a0a1, type: 3}
+  - code: 
+    codeNumber: 11
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 9b38c23c140323243a337d28011f0746, type: 3}
+  - code: 
+    codeNumber: 12
+    gameObject: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ae594d2b11a9d14469bf6a7b5a007f5d, type: 3}
+  overLvBonus: 1000
+  timerSoftWarning: 1
+  BetweenTouchDelay: 1
+  JumpDelay: 0.01
+  jumpPower: 2
+  collisionDelay: 0.01
+  HighScore: 8
+  audioVolume: 0.052
+  FxVolume: 0.024
